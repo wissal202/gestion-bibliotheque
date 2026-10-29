@@ -3,3 +3,5 @@ Projet fil rouge du module d'ingénierie logicielle.
 Application Python permettant de gérer un catalogue de livres.
 ## Auteurs
 - Nafha KARMAS
+## Exécution
+python -m bibliotheque.main
