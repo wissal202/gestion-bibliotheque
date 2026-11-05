@@ -13,5 +13,9 @@ class Livre:
     def rendre(self):
         self.disponible = True
     def __str__(self):
+
         marque = "+" if self.disponible else "-"
         return f"[{marque}] {self.titre} - {self.auteur}"
+
+
+
