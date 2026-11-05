@@ -2,10 +2,10 @@ from bibliotheque.catalogue import Bibliotheque
 from bibliotheque.livre import Livre
 
 def main():
-biblio = Bibliotheque()
+    biblio = Bibliotheque()
 
-biblio.ajouter(Livre("978-2-07-040850-4", "Le Petit Prince", "Antoine de Saint-
-Exupéry"))
+    biblio.ajouter(Livre("978-2-07-040850-4", "Le Petit Prince", "Antoine de Saint-
+    Exupéry"))
 
 biblio.ajouter(Livre("978-2-07-036002-4", "L'Étranger", "Albert Camus"))
 biblio.ajouter(Livre("978-2-07-036822-8", "La Peste", "Albert Camus"))
