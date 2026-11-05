@@ -11,6 +11,7 @@ def main():
     print("=== Bibliothèque ===")
     for livre in biblio.livres:
         print(f" - {livre}")
+        print(f"{len(biblio)} livres au catalogue")
 
     livre = biblio.rechercher_par_isbn("978-2-07-036822-8")
     if livre is not None:
