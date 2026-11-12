@@ -5,4 +5,5 @@ self.isbn = isbn
 self.titre = titre
 self.auteur = auteur
 def __str__(self):
-return f"{self.titre} ({self.auteur})"
+   marque = "+" if self.disponible else "-"
+   return f "[{marque}] {self.titre} - {self.auteur}"
